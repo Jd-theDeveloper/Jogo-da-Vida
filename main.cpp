@@ -11,6 +11,14 @@ int a;
 	string b;
 	int c;
 	int d;
+	int numero;
+	int numero2;
+	int numero3;
+	int numero4;
+	string nome1;
+	string nome2;
+	string nome3;
+	string nome4;
 int main()
 {
 	
@@ -42,16 +50,17 @@ void loja() {
 			cout <<"Voce comprou um cachorro com o nome de Toby"<< endl;
 		}
 		if(c == 2){
-			cout <<"Voce comprou um celular seu numero e 55-99997-4777"<< endl;
+			cout <<"Voce comprou um celular seu numero e 55-99837-4877"<< endl;
 		}
         if(c == 3){
 			cout <<"Voce comprou um computador"<< endl;
 		}
 }
 
+
 void concessionaria() {
 	cout <<"Temos 5 carros a venda"<< endl;
-		cout <<"1- 69 Monkey"<< endl;
+		cout <<"1- 69 Mostango"<< endl;
 		cout <<"2- Laborgeni Urubus"<< endl;
 		cout <<"3- Paganda Huaray"<< endl;
 		cout <<"4- Blue Bird"<< endl;
@@ -72,4 +81,14 @@ void concessionaria() {
 			if(d == 5){
 			cout<<"Voce comprou um Astro Marcos V9 Ultra"<< endl;
 		}
+																															
+	cout << "Agora que voce comprou um carro voce desbloqueou empregos com carros" << endl;
+	cout <<"Se quiser olhar os empregos digite y  se não quiser digite n"<< endl;
+	cin >> nome1;
+	if (nome1 == "y") {
+		cout <<"1-Taxista\n2-Uber Driver"<< endl;
 	}
+	if (nome1 == "n") {
+		cout <<"Ainda em construcao"<< endl;
+	}
+}
